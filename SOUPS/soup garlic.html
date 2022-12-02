@@ -1,9 +1,14 @@
+<!-- DEVELOPER: Annerys Hernandez, IS117-003, fall 2022 -->
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/proyecto.css">
+    <link rel="shortcut icon" href="../images/D.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <title>Garlic Soup-soups</title>
@@ -19,7 +24,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent"style="color: saddlebrown;">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="color: saddlebrown;">
                 <ul class="navbar-nav  " >
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
@@ -34,7 +39,8 @@
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="../dropdown/soup.html">Soups</a></li>
                             <li><a class="dropdown-item" href="../dropdown/pasta.html">pasta</a></li>
-                            <li><a class="dropdown-item" href="../dropdown/salad.html">Salas</a></li>
+                            <li><a class="dropdown-item" href="../dropdown/salad.html">Salads</a></li>
+                            <li><a class="dropdown-item" href="../dropdown/especials.html">Especials</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -50,62 +56,64 @@
     </nav>
 </nav>
 
-<div class=" recetas">
-    <img src="https://tse1.mm.bing.net/th?id=OIP.dVE1W-aa2fZgfITmrqHtxAHaE-&pid=Api&P=0 " alt=" Garlic Soup" style="vertical-align: middle;"
-         width="350" height="300"/>
-    <h1>Garlic Soup</h1><br><br><br><br><br><br><br><br><br><br>
-    <h6>Preparation 35 minute </h6>
-    <h6>Total  time 45 hour</h6>
-    <h6>Ingredients 7</h6>
-    <h6>Portion 4 person</h6>
-    <div class="todo">
-        <div class="contentenidoing">
-            <h3>Ingredient For Garlic Soup</h3>
-            <ul>
-                <li>1250 milliliters of water</li>
-                <li> 120 grams of stale bread</li>
-                <li>  1 head of garlic</li>
-                <li>1 teaspoon smoked sweet paprika</li>
+<div class="recipe-card">
 
-            </ul>
-        </div>
-        <div class="contenidocaramel">
-            <ul>
-                <li>1 splash of extra virgin olive oil</li>
-                <li>1 tablespoon olive or sunflower oil</li>
-                <li>2 eggs</li>
-            </ul>
-        </div>
+    <aside>
 
-        <div class="intrucciones">
-            <h3>Instructions</h3>
-            <ul>
-                <li><strong>1-</strong> We put water to heat in a pot. Meanwhile, peel and cut the garlic into thick slices.</li>
-                <li><strong>2-</strong> In a wide frying pan, add a drizzle of olive oil and when it is hot, sauté the garlic.
-                    We remove from time to time until they are golden. We remove from the fire.</li>
-                <li><strong>3-</strong> Cut the bread into pieces and reserve. In the pan that we have just removed from the
-                    heat, add a generous teaspoon of smoked paprika, stir well and return to heat to continue with the traditional garlic soup recipe.</li>
-                <li><strong>4-</strong> Add the bread that we have broken and stir well so that it is impregnated with paprika, oil and garlic. When the water
-                    starts to boil, we pour the contents of the pan, stir well and add salt. Cover and let the garlic soup cook for 15 to 20 minutes.</li>
-                <li><strong>5-</strong> We beat the eggs as if we wanted to make an omelette and added them to the casserole, stirring.
-                    In less than a minute they will be curdled, so we turn off and serve.</li>
-                <li><strong>6-</strong>As we said, the traditional garlic soup is perfect to combat low temperatures, ideal for dinner. Bon Appetite!</li>
+        <img src="../images/galic.jpg" alt="Soup Garlic" />
 
+    </aside>
 
-            </ul>
+    <article>
 
-            <h2>A taste!</h2>
-        </div>
+        <h2>Garlic Soup </h2>
+        <h4>Soups</h4>
+
+        <ul>
+            <li><span class="icon icon-users"></span><span>4</span></li>
+            <li><span class="icon icon-clock"></span><span> 45 minute</span></li>
+            <li><span class="icon icon-calories"></span><span>261</span></li>
+        </ul>
+
+        <p class="ingredients"><span><strong>Ingredients:</strong>&nbsp;</span></p>
+        <ul>
+            <li>1250 milliliters of water</li>
+            <li> 120 grams of stale bread</li>
+            <li>  1 head of garlic</li>
+            <li>1 teaspoon smoked sweet paprika</li>
+            <li>1 splash of extra virgin olive oil</li>
+            <li>1 tablespoon olive or sunflower oil</li>
+            <li>2 eggs</li>
+        </ul>
+        <h3>Instructions</h3>
+        <ol>
+            <li> We put water to heat in a pot. Meanwhile, peel and cut the garlic into thick slices.</li><br>
+            <li> In a wide frying pan, add a drizzle of olive oil and when it is hot, sauté the garlic.
+                We remove from time to time until they are golden. We remove from the fire.</li><br>
+            <li>Cut the bread into pieces and reserve. In the pan that we have just removed from the
+                heat, add a generous teaspoon of smoked paprika, stir well and return to heat to continue with the traditional garlic soup recipe.</li><br>
+            <li> Add the bread that we have broken and stir well so that it is impregnated with paprika, oil and garlic. When the water
+                starts to boil, we pour the contents of the pan, stir well and add salt. Cover and let the garlic soup cook for 15 to 20 minutes.</li><br>
+            <li> We beat the eggs as if we wanted to make an omelette and added them to the casserole, stirring.
+                In less than a minute they will be curdled, so we turn off and serve.</li><br>
+            <li>As we said, the traditional garlic soup is perfect to combat low temperatures, ideal for dinner. Bon Appetite!</li><br>
 
 
-    </div>
+
+        </ol>
+        <h2 style="position: center">A taste!</h2>
+
+    </article>
+
 </div>
-<footer>
-    <p>gmail: Afh9@njit.edu </p>
-    <p>&copy;Annerys Hernandez,2022,New jersey Institute Tecnological</p>
 
+<footer class="footer page-footer font-small ">
+    <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Annerys Hernandez, 2022 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+    </div>
 </footer>
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
